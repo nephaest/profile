@@ -1,0 +1,104 @@
+body {
+  background-image: url(http://cdn.paper4pc.com/images/free-colorful-background-wallpaper-1.jpg);
+  background-size: cover;
+  color: #7D7D7D;
+  font-family: "Open Sans";
+  font-weight: lighter;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.card {
+  background-color: white;
+  box-shadow: 1px 1px 2px #CCCCCC;
+  border-radius: 5px;
+  width: 650px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+#introduction {
+  text-align: center;
+}
+
+img {
+  height: 200px;
+  width: 150px;
+}
+
+.img-rounded {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-size: 22px;
+  color: #DD5555;
+  font-weight: bold;
+  margin: 20px auto;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: 16px;
+}
+
+p {
+  margin: 0 0;
+}
+
+a {
+  color: #CCCCCC;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #DD5555;
+}
+
+.list, .list-inline {
+  list-style: none;
+  padding-left: 0;
+  margin: 5 auto;
+}
+
+.list li, .list-item-inline {
+  text-align: center;
+  margin: 0 10px;
+}
+
+.list-item-inline {
+  display: inline-block;
+}
+
+.list-itemt-inline-block {
+  display: inline;
+}
+
+.fa {
+  font-size: 48px;
+}
+
+.description {
+  width: 330px;
+  text-align: left;
+  float: left;
+}
+
+.centered {
+  text-align: center;
+}
+
+.spaced {
+  margin: 0 10px;
+}
