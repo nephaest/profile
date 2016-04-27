@@ -1,5 +1,5 @@
 body {
-  background-image: url(http://cdn.paper4pc.com/images/free-colorful-background-wallpaper-1.jpg);
+  background-image: url(images/red_roses.jpg);
   background-size: cover;
   color: #7D7D7D;
   font-family: "Open Sans";
@@ -7,6 +7,32 @@ body {
   font-size: 15px;
   line-height: 24px;
 }
+
+#sidebar {
+  position: fixed;
+  width: 200px;
+  left: 20px;
+  top: 20px;
+  bottom: 20px;
+  /*margin-left: 200px;*/
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+#sidebar ul li {
+  margin: 10px 0;
+}
+
+#sidebar a {
+  color:#404040;
+  font-size: 18px;
+}
+#sidebar a:hover {
+  color:  #DD5555;
+}
+
 
 .card {
   background-color: white;
@@ -17,7 +43,7 @@ body {
   padding: 20px;
 }
 
-#introduction {
+#summary {
   text-align: center;
 }
 
