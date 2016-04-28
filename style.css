@@ -32,8 +32,12 @@ body {
   font-size: 18px;
 }
 
-#wrapper {
+.page-container {
   margin: 20px 20px 0px 230px;
+}
+
+#wrapper {
+  display: flex;
 }
 
 #left, #right {
@@ -53,7 +57,7 @@ body {
   clear: both;
 }
 
-.card {
+.section {
   background-color: white;
   box-shadow: 1px 1px 2px #CCCCCC;
   border-radius: 5px;
@@ -66,10 +70,9 @@ body {
 }
 
 img {
-  height: 180px;
-  width: 120px;
+  height: 150px;
+  width: 100px;
   box-shadow: 0 3px 2px #CCCCCC;
-  /*vertical-align: top;*/
 }
 
 .img-rounded {
@@ -105,7 +108,7 @@ p {
 }
 
 a {
-  color: #CCCCCC;
+  color: #BBBBBB;
   text-decoration: none;
 }
 
@@ -127,7 +130,7 @@ a:hover {
 .list, .list-inline {
   list-style: none;
   padding: 0;
-  margin: 5 auto;
+  margin: 5px auto;
 }
 
 .list li, .list-item-inline {
@@ -139,12 +142,37 @@ a:hover {
   display: inline-block;
 }
 
+.cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  background-color: white;
+  padding: 5px 20px;
+
+}
+
+.inner-card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.card-image {
+  flex: 0 0 25%;
+}
+
+.card-description {
+  flex: 1 0 auto;
+}
+
 .fa {
   font-size: 40px;
 }
 
 .description {
-  width: 330px;
+  width: 450px;
   text-align: left;
   vertical-align: top;
 }
@@ -164,7 +192,7 @@ a:hover {
 
 #footer {
   margin: 25px 20px;
-  position: relative;
+  /*position: relative;*/
 }
 
 #footer ul {
@@ -175,3 +203,4 @@ a:hover {
 #footer .fa {
   font-size: 32px;
 }
+
